@@ -48,8 +48,10 @@ def customer_responses(n):
             print("You have chosen to send money")
             print("Below are the list of banks, choose one")
             bank_list = options['Bank']
+            print("-------------------------------------")
             for i in bank_list:
                 print(i)
+            print("-------------------------------------")
             user_bank_choice = input("Enter name of bank: ")
             if user_bank_choice in bank_list:
                 print("Account number must be 11 digits")
@@ -73,8 +75,10 @@ def customer_responses(n):
             print("You have chosen to purchase airtime")
             print("Below are the list of phone networks, choose one,,")
             network_list = options['Network']
+            print("-------------------------------------")
             for i in network_list:
                 print(i)
+            print("-------------------------------------")
             user_network_choice = input("Enter name of network: ")
             if user_network_choice in network_list:
                 print("Phone number must be 11 digits")
